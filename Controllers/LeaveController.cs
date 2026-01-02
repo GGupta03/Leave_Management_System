@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace Leave_Management_System.Controllers
 {
 
+    [ApiController]
+    [Route("api/leave")]
     public class LeaveController : ControllerBase
     {
         private readonly ILeaveService _service;
